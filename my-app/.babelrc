@@ -2,6 +2,5 @@
     "presets": [
         "@babel/preset-react"
     ],
-    "plugins": ["@babel/plugin-syntax-jsx"],
-    "requireConfigFile": false
+    "plugins": ["@babel/plugin-syntax-jsx"]
   }
