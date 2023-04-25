@@ -46,11 +46,12 @@ jobs:
 
   lint:
   
-      runs-on: ubuntu-latest
+      runs-on: ubuntu-22.04
       
       name: Super-Linter
-        uses: github/super-linter@v5.0.0
+      steps: 
         uses: actions/checkout@v3
+        uses: github/super-linter@v5.0.0
+        uses: actions/setup-node@v3
         env:
-          DEFAULT_BRANCH: dev
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
