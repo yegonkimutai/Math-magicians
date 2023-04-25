@@ -85,7 +85,9 @@ Install this project with:
 
 ### Usage
 
--I can help in building a product , feature or website through some of my work and experience! Don’t hestiate to contact me.
+```sh
+  npm install
+```
 
 ### Run tests
 
