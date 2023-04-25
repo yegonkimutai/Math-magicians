@@ -49,6 +49,7 @@ jobs:
       runs-on: ubuntu-latest
       
       name: Super-Linter
+        uses: github/super-linter@v5.0.0
         uses: actions/checkout@v3
         env:
           DEFAULT_BRANCH: dev
