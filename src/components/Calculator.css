@@ -40,13 +40,15 @@
   justify-content: space-between;
   background: darkgray;
   color: white;
-  width: 100%;
   margin: auto;
+  height: 10rem;
+  width: 99.5%;
+  font-size: 40px;
+  align-items: flex-end;
+  border: none;
 }
 
 .text {
   font-size: 20px;
   padding: 5px;
-  position: relative;
-  left: 95%;
 }
