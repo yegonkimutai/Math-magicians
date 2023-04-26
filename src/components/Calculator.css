@@ -45,12 +45,10 @@
   width: 99.5%;
   font-size: 40px;
   align-items: flex-end;
-  justify-content: flex-end;
   border: none;
 }
 
 .text {
   font-size: 20px;
   padding: 5px;
-  
 }
