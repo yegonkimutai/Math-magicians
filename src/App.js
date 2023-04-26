@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 import './App.css';
-import Button from "./components/Button.js"
-import Input from "./components/Input.js"
+import Button from './components/Button.js'
+import Input from './components/Calculator.js'
 
 const App = () => {
   const [text, setText]  = useState(0)

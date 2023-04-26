@@ -1,8 +1,8 @@
-import "./Button.css";
+import './Button.css';
 
-const Button =({ symbol, color }) => {
+const Button =(props) => {
     return(
-        <div className="button" style={{backgroundColor: color}}>{symbol}</div>
+        <div className="button" style={{backgroundColor: props.color}}>{props.symbol}</div>
     )
 }
 

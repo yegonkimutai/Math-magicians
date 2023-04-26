@@ -8,8 +8,7 @@ body {
   align-items: center;
 }
 
-
-.calc-wrapper{
+.calc-wrapper {
   margin-top: 2rem;
   background-color: white;
   width: 50%;
@@ -19,12 +18,12 @@ body {
   margin: auto;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-areas: 
-  'button button button button'
-  'button button button button'
-  'button button button button'
-  'button button button button'
-  'button button button button';
+  grid-template-areas:
+    'button button button button'
+    'button button button button'
+    'button button button button'
+    'button button button button'
+    'button button button button';
   text-align: center;
   justify-content: center;
 }
