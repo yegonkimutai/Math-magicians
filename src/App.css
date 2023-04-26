@@ -7,28 +7,3 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.calc-wrapper {
-  margin-top: 2rem;
-  background-color: white;
-  width: 50%;
-}
-
-.btn-row {
-  margin: auto;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-areas:
-    'button button button button'
-    'button button button button'
-    'button button button button'
-    'button button button button'
-    'button button button button';
-  text-align: center;
-  justify-content: center;
-}
-
-.big-grid {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}

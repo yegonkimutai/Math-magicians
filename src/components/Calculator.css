@@ -1,3 +1,40 @@
+.calc-wrapper {
+  margin-top: 2rem;
+  background-color: white;
+  width: 50%;
+}
+
+.btn-row {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas:
+    'button button button button'
+    'button button button button'
+    'button button button button'
+    'button button button button'
+    'button button button button';
+  text-align: center;
+  justify-content: center;
+}
+
+.big-grid {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.big-grid button {
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid gray;
+}
+
 .input-wrapper {
   display: flex;
   justify-content: space-between;
@@ -7,12 +44,9 @@
   margin: auto;
 }
 
-.result {
-  font-size: 20px;
-  padding: 5px;
-}
-
 .text {
   font-size: 20px;
   padding: 5px;
+  position: relative;
+  left: 95%;
 }
