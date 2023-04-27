@@ -1,0 +1,20 @@
+.quote-wrapper {
+  width: 50%;
+  height: 26rem;
+  background-color: white;
+}
+
+.quote-wrapper p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.wait-message {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: red;
+  width: 50%;
+  height: 26rem;
+  background-color: white;
+}
