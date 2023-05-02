@@ -18,6 +18,7 @@ const Input = () => {
   const initialValue = calcData.next || calcData.total || '0';
 
   return (
+    <>
     <div className="calc-wrapper">
       <input type="number" value={initialValue} className="input-wrapper" readOnly/>
       <div className="btn-row">
@@ -44,6 +45,7 @@ const Input = () => {
         <button style={{ background: 'darkorange' }} type="button" onClick={() => valueButton('=')} className="button">=</button>
       </div>
     </div>
+    </>
 
   );
 };

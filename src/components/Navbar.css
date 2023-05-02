@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 1rem;
+}
+
+.nav ul {
+    padding: 0%;
+    margin-right: 5%;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav li {
+    border-left: 3px solid black;
+    padding: .5rem;
+}
+
+.nav a:hover {
+    color: blue;
+}
