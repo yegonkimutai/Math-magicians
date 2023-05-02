@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import './Calculator.css';
 import calculate from '../logic/calculate';
-// import operate from '../logic/operate';
 
 const Input = () => {
   const [calcData, setCalcData] = useState({
@@ -20,7 +19,7 @@ const Input = () => {
 
   return (
     <div className="calc-wrapper">
-      <input type="number" value={initialValue} className="input-wrapper" />
+      <input type="number" value={initialValue} className="input-wrapper" readOnly/>
       <div className="btn-row">
         <button type="button" onClick={() => valueButton('AC')} className="button">AC</button>
         <button type="button" onClick={() => valueButton('+/-')} className="button">+/-</button>
