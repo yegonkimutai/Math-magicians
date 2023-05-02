@@ -1,13 +1,12 @@
 .quote-wrapper {
-  width: 50%;
-  height: 26rem;
-  background-color: white;
+  width: 80%;
+  height: 100%;
+  margin-top: 20%;
 }
 
 .quote-wrapper p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.5rem;
-  font-weight: 100;
 }
 
 .wait-message {
@@ -16,5 +15,5 @@
   color: red;
   width: 50%;
   height: 26rem;
-  background-color: white;
+  margin-top: 20%;
 }
