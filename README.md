@@ -52,6 +52,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🎥 Video Explanation <a name="video-explanation"></a>
+Click <a href="https://www.loom.com/share/8c743efd6923498ba2b51828c1fc7066">here</a> for the video explanation about how the app works
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://mm-calc.onrender.com)
