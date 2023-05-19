@@ -57,7 +57,7 @@ Click <a href="https://www.loom.com/share/8c743efd6923498ba2b51828c1fc7066">here
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mm-calc.onrender.com)
+- [Live Demo Link](https://math-magicians-murex.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
