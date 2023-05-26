@@ -14,7 +14,7 @@ const Navbar = () => {
     <header className="nav">
       <Link to="/" className="main-title">Math Magicians</Link>
       <nav ref={navRef} className='nav-links'>
-      <ul className='home-links'>
+      <ul className='home-links' onClick={showNavbar}>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/calculator">Calculator</Link></li>
         <li><Link to="/quotes">Quotes</Link></li>
