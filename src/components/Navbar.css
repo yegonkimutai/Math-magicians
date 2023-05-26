@@ -25,7 +25,7 @@
 }
 
 .nav li {
-  border-left: .1rem solid black;
+  border-left: 0.1rem solid black;
   padding: 1rem;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .nav-btn {
-  padding: .5rem;
+  padding: 0.5rem;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -44,14 +44,14 @@
 }
 
 @media (max-width: 600px) {
-  .nav-btn{
+  .nav-btn {
     display: block;
   }
 
   .main-title {
     font-size: 2.5rem;
   }
-  
+
   .nav-links {
     position: fixed;
     top: 0;
