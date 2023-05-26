@@ -52,3 +52,13 @@
   font-size: 20px;
   padding: 5px;
 }
+
+@media (max-width: 600px) {
+  .calc-wrapper {
+    width: 95%;
+  }
+  
+  .input-wrapper {
+    width: 99%;
+  }
+}
